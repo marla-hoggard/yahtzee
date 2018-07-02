@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* DICE */
+.dice {
+	width: 500px;
+	margin: auto;
+	//border: 1px solid black;
+	height: 100px;
+	display: flex;
+}
+
+.die {
+	height: 72px;
+	width: 72px;
+	background: red;
+	border-radius: 5px;
+	box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+	border: 3px solid transparent;
+	margin: 3px;
+	
+}
+
+.selected {
+	border: 3px solid yellow;
+}
+
+.roll {
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.roll button {
+	font-size: 25px;
+	margin-bottom: 3px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	outline: none;
+}
+
+.roll button:active {
+	background: #ccc;
+}
+
+/* SCOREBOARD */
+.scoreboard {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.score-column {
+
+}
+.scoreboard-section {
+	display: flex;
+	//border: 1px solid black;
+	cursor: pointer;
+	justify-content: center;
+}
+
+.title {
+	color: blue;
+	width: 150px;
+	border: 1px solid blue;
+	padding: 5px;
+}
+
+.score {
+	color: red;
+	width: 100px;
+	border: 1px solid red;
+	padding: 5px;
+	text-align: center;
+}
+
+.no-click {
+	cursor: default;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.final {
+	margin-top: 10px;
+	text-align: center;
+	font-weight: bold;
+}
