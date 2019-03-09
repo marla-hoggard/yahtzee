@@ -8,7 +8,7 @@ body {
 .dice {
 	width: 500px;
 	margin: auto;
-	//border: 1px solid black;
+	border: 1px solid black;
 	height: 100px;
 	display: flex;
 }
@@ -39,9 +39,6 @@ body {
 	border-radius: 5px;
 	border: 1px solid gray;
 	outline: none;
-}
-
-.roll button:active {
 	background: #ccc;
 }
 
@@ -52,12 +49,8 @@ body {
 	margin-top: 10px;
 }
 
-.score-column {
-
-}
 .scoreboard-section {
 	display: flex;
-	//border: 1px solid black;
 	cursor: pointer;
 	justify-content: center;
 }
